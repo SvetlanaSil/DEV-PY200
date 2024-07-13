@@ -1,0 +1,49 @@
+type: output
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 188
+        length: 26
+        placeholder_text: '# TODO написать класс Book'
+        dependency:
+          section: Атрибуты и методы
+          lesson: Лабораторная 2
+          task: Класс Book
+          file: main.py
+          placeholder: 1
+        initial_state:
+          length: 26
+          offset: 188
+        initialized_from_dependency: true
+        encrypted_possible_answer: |-
+          class Book:
+              ...
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 522
+        length: 29
+        placeholder_text: '# TODO написать класс Library'
+        initial_state:
+          length: 29
+          offset: 217
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          class Library:
+              ...
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 13 Jul 2024 13:15:26 UTC"
+record: -1
